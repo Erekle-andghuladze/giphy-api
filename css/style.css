@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-search {
+    border: none;
+    border-radius: 6%;
+    height: 25px;
+    background-color: green;
+}
+
+#gifs {
+    margin: auto;
+    margin-top: 60px;
+    width: 70%;
+    /* border: 1px solid red; */
+}
+
+#gifs img {
+    height: 200px;
+}
