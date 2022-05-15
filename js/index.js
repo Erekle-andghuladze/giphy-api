@@ -74,6 +74,7 @@ const createRecentButton = (recentSearch, idIndex) => {
     let button = document.createElement("button");
     button.id = `recents${idIndex}`;
     button.innerHTML = recentSearch;
+    button.className = "recent-search-button"
     document.getElementById("buttons").appendChild(button);
 }
 

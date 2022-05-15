@@ -24,3 +24,8 @@
     height: 200px;
 }
 
+.recent-search-button {
+    border: none;
+    margin: 3px;
+    border-radius: 6%
+}
